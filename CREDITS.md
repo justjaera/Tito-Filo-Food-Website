@@ -11,5 +11,6 @@ This starter website uses food photos hosted by Wikimedia Commons.
 - Champorado — https://commons.wikimedia.org/wiki/File:Champorado.jpg
 - Korean Japchae — https://commons.wikimedia.org/wiki/File:Homemade_Japchae_02.JPG
 - Filipino Barbecue — https://commons.wikimedia.org/wiki/File:Inihaw_na_baboy_(Filipino_pork_barbecue_on_skewers).jpg
+- Nilaga - https://commons.wikimedia.org/wiki/File:Bulacan,Batangasjf8355_22.JPG
 
 Review each file page and its license/attribution terms before commercial publication.
