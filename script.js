@@ -1,4 +1,4 @@
-const BUSINESS_PHONE = "16309366837"; // replace with your real phone number, digits only
+const BUSINESS_PHONE = "16309366837";
 document.getElementById("year").textContent = new Date().getFullYear();
 
 const navToggle = document.querySelector(".nav-toggle");
