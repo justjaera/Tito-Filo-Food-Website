@@ -1,4 +1,4 @@
-const BUSINESS_PHONE = "16309366837";
+const BUSINESS_PHONE = "+18888888888";
 document.getElementById("year").textContent = new Date().getFullYear();
 
 const navToggle = document.querySelector(".nav-toggle");
