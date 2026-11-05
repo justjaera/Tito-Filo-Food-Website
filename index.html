@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,162 +6,485 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Made-to-order Filipino leche flan, puto, and suman, cooked from home with love." />
   <title>Dany's Lutong Bahay</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <header class="site-header">
-    <a class="brand" href="#home">
-      <span class="brand-mark">♥</span>
-      <span><strong>Dany's Lutong Bahay</strong><small>Filipino Kitchen</small></span>
-    </a>
-    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
-    <nav class="nav-links">
-      <a href="#menu">Menu</a>
-      <a href="#order">Order</a>
-      <a href="#about">About</a>
-      <a class="nav-call" href="tel:+16309366837">Call Us</a>
-    </nav>
-  </header>
 
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-copy">
-        <p class="eyebrow">HOME-COOKED • MADE TO ORDER</p>
-        <h1>Filipino sweets, <em>made with love.</em></h1>
-        <p class="hero-text">Silky leche flan, soft and fluffy puto, and chewy suman sa lihiya, prepared fresh for your order. Perfect for family gatherings, celebrations, potlucks, and cravings that need a little taste of home.</p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="#menu">See the Menu</a>
-          <a class="btn btn-secondary" href="tel:+16309366837">Call to Order</a>
+<header class="site-header">
+  <a class="brand" href="#home">
+    <span class="brand-mark">♥</span>
+    <span>
+      <strong>Dany's Lutong Bahay</strong>
+      <small>Filipino Kitchen</small>
+    </span>
+  </a>
+
+  <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+
+  <nav class="nav-links">
+    <a href="#menu">Menu</a>
+    <a href="#order">Order</a>
+    <a href="#about">About</a>
+    <a class="nav-call" href="tel:+16309366837">Call Us</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- HERO SECTION -->
+
+<section class="hero" id="home">
+
+  <div class="hero-copy">
+    <p class="eyebrow">HOME-COOKED • MADE TO ORDER</p>
+
+    <h1>Filipino sweets, <em>made with love.</em></h1>
+
+    <p class="hero-text">
+      Silky leche flan, soft and fluffy puto, and chewy suman sa lihiya,
+      prepared fresh for your order. Perfect for family gatherings,
+      celebrations, potlucks, and cravings that need a little taste of home.
+    </p>
+
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#menu">See the Menu</a>
+      <a class="btn btn-secondary" href="tel:+16309366837">Call to Order</a>
+    </div>
+
+    <div class="hero-note">
+      <span>♡</span>
+      <p>
+        <strong>Made to order.</strong>
+        Please order ahead so every treat can be prepared fresh.
+      </p>
+    </div>
+  </div>
+
+  <div class="hero-art">
+    <img class="hero-main"
+      src="https://commons.wikimedia.org/wiki/Special:FilePath/Leche%20flan%20from%20the%20Philippines.jpg"
+      alt="Filipino leche flan">
+
+    <img class="hero-small hero-small-1"
+      src="https://commons.wikimedia.org/wiki/Special:FilePath/Puto%20in%20banana%20leaf.jpg"
+      alt="Filipino puto">
+
+    <img class="hero-small hero-small-2"
+      src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600"
+      alt="Sweet dessert">
+
+    <div class="hero-badge">
+      Lutong bahay<br>
+      <strong>with love</strong>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- MENU SECTION -->
+
+<section class="menu-section section" id="menu">
+
+  <div class="section-heading">
+    <p class="eyebrow">OUR MENU</p>
+
+    <h2>Sweet treats worth sharing</h2>
+
+    <p>
+      Choose your favorites, then send us your order request below.
+      Serving sizes and prices can be confirmed when you order.
+    </p>
+  </div>
+
+
+  <div class="menu-grid">
+
+    <!-- REGULAR LECHE FLAN -->
+
+    <article class="food-card" data-item="Regular Leche Flan">
+
+      <img
+        src="https://commons.wikimedia.org/wiki/Special:FilePath/Leche%20flan%20from%20the%20Philippines.jpg"
+        alt="Regular Filipino leche flan"
+        loading="lazy">
+
+      <div class="food-card-body">
+
+        <div class="food-title-row">
+          <h3>Regular Leche Flan</h3>
+          <span>Classic</span>
         </div>
-        <div class="hero-note"><span>♡</span><p><strong>Made to order.</strong> Please order ahead so every treat can be prepared fresh.</p></div>
+
+        <p>
+          Silky, rich caramel custard made the traditional way.
+          Smooth, creamy, and perfect for celebrations.
+        </p>
+
+        <button class="add-item" type="button">Add to order</button>
+
       </div>
+    </article>
 
-      <div class="hero-art">
-        <img class="hero-main" src="https://commons.wikimedia.org/wiki/Special:FilePath/Leche%20flan%20from%20the%20Philippines.jpg" alt="Leche flan">
-        <img class="hero-small hero-small-1" src="https://commons.wikimedia.org/wiki/Special:FilePath/Puto%20in%20banana%20leaf.jpg" alt="Puto">
-        <img class="hero-small hero-small-2" src="https://commons.wikimedia.org/wiki/Special:FilePath/Puto%20%28Filipino%20rice%20cake%29%20with%20cheese.jpg" alt="Puto rice cakes">
-        <div class="hero-badge">Lutong bahay<br><strong>with love</strong></div>
+
+    <!-- UBE LECHE FLAN -->
+
+    <article class="food-card" data-item="Ube Leche Flan">
+
+      <img
+        src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800"
+        alt="Ube-inspired dessert"
+        loading="lazy">
+
+      <div class="food-card-body">
+
+        <div class="food-title-row">
+          <h3>Ube Leche Flan</h3>
+          <span>Special</span>
+        </div>
+
+        <p>
+          Our creamy leche flan with a purple yam twist:
+          sweet, velvety, and beautifully purple.
+        </p>
+
+        <button class="add-item" type="button">Add to order</button>
+
       </div>
-    </section>
+    </article>
 
-    <section class="menu-section section" id="menu">
-      <div class="section-heading">
-        <p class="eyebrow">OUR MENU</p>
-        <h2>Sweet treats worth sharing</h2>
-        <p>Choose your favorites, then send us your order request below. Serving sizes and prices can be confirmed when you order.</p>
+
+    <!-- PUTING PUTO -->
+
+    <article class="food-card" data-item="Puting Puto">
+
+      <img
+        src="https://commons.wikimedia.org/wiki/Special:FilePath/Puto%20in%20banana%20leaf.jpg"
+        alt="Traditional Filipino white puto"
+        loading="lazy">
+
+      <div class="food-card-body">
+
+        <div class="food-title-row">
+          <h3>Puting Puto</h3>
+          <span>Soft &amp; fluffy</span>
+        </div>
+
+        <p>
+          Classic white steamed rice cakes, light and fluffy.
+          Great on their own or alongside your favorite savory dishes.
+        </p>
+
+        <button class="add-item" type="button">Add to order</button>
+
       </div>
+    </article>
 
-      <div class="menu-grid">
-        <article class="food-card" data-item="Regular Leche Flan">
-          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Leche%20flan%20from%20the%20Philippines.jpg" alt="Regular leche flan" loading="lazy">
-          <div class="food-card-body"><div class="food-title-row"><h3>Regular Leche Flan</h3><span>Classic</span></div><p>Silky, rich caramel custard made the traditional way. Smooth, creamy, and perfect for celebrations.</p><button class="add-item" type="button">Add to order</button></div>
-        </article>
 
-        <article class="food-card" data-item="Ube Leche Flan">
-          <img src="images/ube-leche-flan.jpg" alt="Ube leche flan" loading="lazy" onerror="this.style.display='none'">
-          <div class="food-card-body"><div class="food-title-row"><h3>Ube Leche Flan</h3><span>Special</span></div><p>Our creamy leche flan with a purple yam twist: sweet, velvety, and beautifully purple.</p><button class="add-item" type="button">Add to order</button></div>
-        </article>
+    <!-- UBE PUTO -->
 
-        <article class="food-card" data-item="Puting Puto">
-          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Puto%20in%20banana%20leaf.jpg" alt="Puting puto" loading="lazy">
-          <div class="food-card-body"><div class="food-title-row"><h3>Puting Puto</h3><span>Soft &amp; fluffy</span></div><p>Classic white steamed rice cakes, light and fluffy. Great on their own or alongside your favorite savory dishes.</p><button class="add-item" type="button">Add to order</button></div>
-        </article>
+    <article class="food-card" data-item="Ube Puto">
 
-        <article class="food-card" data-item="Ube Puto">
-          <img src="images/ube-puto.jpg" alt="Ube puto" loading="lazy" onerror="this.style.display='none'">
-          <div class="food-card-body"><div class="food-title-row"><h3>Ube Puto</h3><span>Purple favorite</span></div><p>Soft steamed rice cakes made with ube, lightly sweet with a lovely purple yam flavor.</p><button class="add-item" type="button">Add to order</button></div>
-        </article>
+      <img
+        src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800"
+        alt="Purple dessert"
+        loading="lazy">
 
-        <article class="food-card" data-item="Suman sa Lihiya">
-          <img src="images/suman-sa-lihiya.jpg" alt="Suman sa lihiya" loading="lazy" onerror="this.style.display='none'">
-          <div class="food-card-body"><div class="food-title-row"><h3>Suman sa Lihiya</h3><span>Traditional</span></div><p>Chewy sticky rice wrapped in banana leaves and steamed until tender. A classic Filipino kakanin, lovely with sugar or mango.</p><button class="add-item" type="button">Add to order</button></div>
-        </article>
+      <div class="food-card-body">
+
+        <div class="food-title-row">
+          <h3>Ube Puto</h3>
+          <span>Purple favorite</span>
+        </div>
+
+        <p>
+          Soft steamed rice cakes made with ube,
+          lightly sweet with a lovely purple yam flavor.
+        </p>
+
+        <button class="add-item" type="button">Add to order</button>
+
       </div>
-    </section>
+    </article>
 
-    <section class="love-banner">
+
+    <!-- SUMAN SA LIHIYA -->
+
+    <article class="food-card" data-item="Suman sa Lihiya">
+
+      <img
+        src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800"
+        alt="Food and traditional ingredients"
+        loading="lazy">
+
+      <div class="food-card-body">
+
+        <div class="food-title-row">
+          <h3>Suman sa Lihiya</h3>
+          <span>Traditional</span>
+        </div>
+
+        <p>
+          Chewy sticky rice wrapped in banana leaves and steamed
+          until tender. A classic Filipino kakanin, lovely with
+          sugar or mango.
+        </p>
+
+        <button class="add-item" type="button">Add to order</button>
+
+      </div>
+    </article>
+
+  </div>
+
+</section>
+
+
+<!-- MOTTO SECTION -->
+
+<section class="love-banner">
+
+  <div>
+    <span class="big-heart">♥</span>
+
+    <p class="eyebrow">OUR MOTTO</p>
+
+    <h2>
+      “From our Filipino kitchen to your table —
+      every dish is made to order, made from the heart,
+      and always made with love.”
+    </h2>
+  </div>
+
+</section>
+
+
+<!-- ORDER SECTION -->
+
+<section class="order-section section" id="order">
+
+  <div class="order-info">
+
+    <p class="eyebrow">READY TO ORDER?</p>
+
+    <h2>Tell us what you're craving.</h2>
+
+    <p>
+      Fill out the order request and tap <strong>Text My Order</strong>.
+      Your phone will open a text message with your order details ready to send.
+    </p>
+
+    <div class="contact-card">
+      <small>CALL OR TEXT</small>
+      <a href="tel:+16309366837">(630) 936-6837</a>
+    </div>
+
+    <div class="order-steps">
+
       <div>
-        <span class="big-heart">♥</span>
-        <p class="eyebrow">OUR MOTTO</p>
-        <h2>“From our Filipino kitchen to your table — every dish is made to order, made from the heart, and always made with love.”</h2>
-      </div>
-    </section>
-
-    <section class="order-section section" id="order">
-      <div class="order-info">
-        <p class="eyebrow">READY TO ORDER?</p>
-        <h2>Tell us what you’re craving.</h2>
-        <p>Fill out the order request and tap <strong>Text My Order</strong>. Your phone will open a text message with your order details ready to send.</p>
-        <div class="contact-card">
-          <small>CALL OR TEXT</small>
-          <a href="tel:+18888888888">(888) 888-888</a>
-          
-        </div>
-        <div class="order-steps">
-          <div><span>1</span><p><strong>Choose</strong><br>your treats.</p></div>
-          <div><span>2</span><p><strong>Request</strong><br>a pickup date.</p></div>
-          <div><span>3</span><p><strong>Confirm</strong><br>price & availability.</p></div>
-        </div>
+        <span>1</span>
+        <p><strong>Choose</strong><br>your treats.</p>
       </div>
 
-      <form class="order-form" id="orderForm">
-        <div class="form-row">
-          <label>Your name<input type="text" id="customerName" placeholder="Your name" required></label>
-          <label>Your phone<input type="tel" id="customerPhone" placeholder="(000) 000-000" required></label>
-        </div>
+      <div>
+        <span>2</span>
+        <p><strong>Request</strong><br>a pickup date.</p>
+      </div>
 
-        <label>What would you like to order?
-          <div class="checkbox-grid" id="menuChoices">
-            <label><input type="checkbox" value="Regular Leche Flan"> Regular Leche Flan</label>
-            <label><input type="checkbox" value="Ube Leche Flan"> Ube Leche Flan</label>
-            <label><input type="checkbox" value="Puting Puto"> Puting Puto</label>
-            <label><input type="checkbox" value="Ube Puto"> Ube Puto</label>
-            <label><input type="checkbox" value="Suman sa Lihiya"> Suman sa Lihiya</label>
-          </div>
+      <div>
+        <span>3</span>
+        <p><strong>Confirm</strong><br>price &amp; availability.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <form class="order-form" id="orderForm">
+
+    <div class="form-row">
+
+      <label>
+        Your name
+        <input type="text" id="customerName" placeholder="Your name" required>
+      </label>
+
+      <label>
+        Your phone
+        <input type="tel" id="customerPhone" placeholder="Your phone number" required>
+      </label>
+
+    </div>
+
+
+    <label>What would you like to order?
+
+      <div class="checkbox-grid" id="menuChoices">
+
+        <label>
+          <input type="checkbox" value="Regular Leche Flan">
+          Regular Leche Flan
         </label>
 
-        <div class="form-row">
-          <label>Amount / tray size
-            <select id="orderSize">
-              <option>Not sure — please help me choose</option>
-              <option>Small order</option>
-              <option>Medium tray</option>
-              <option>Large tray</option>
-              <option>Party / catering size</option>
-            </select>
-          </label>
-          <label>Preferred pickup date<input type="date" id="pickupDate"></label>
-        </div>
+        <label>
+          <input type="checkbox" value="Ube Leche Flan">
+          Ube Leche Flan
+        </label>
 
-        <label>Special requests<textarea id="orderNotes" rows="4" placeholder="Quantity, allergies, event details, etc."></textarea></label>
-        <button class="btn btn-primary form-submit" type="submit">Text My Order →</button>
-        <p class="form-footnote">Submitting this form does not charge the customer. You confirm availability, total price, and pickup details directly.</p>
-      </form>
-    </section>
+        <label>
+          <input type="checkbox" value="Puting Puto">
+          Puting Puto
+        </label>
 
-    <section class="about-section section" id="about">
-      <div class="about-card">
-        <p class="eyebrow">ABOUT OUR KITCHEN</p>
-        <h2>Home-cooked food with Filipino heart.</h2>
-        <p>We make comforting Filipino favorites in small batches and prepare each order with care. Whether it’s a family gathering, birthday, potluck, or “I miss Filipino food” kind of day, we’d love to make something special for your table.</p>
-        <a class="text-link" href="tel:+18888888888">Call us to plan your order →</a>
+        <label>
+          <input type="checkbox" value="Ube Puto">
+          Ube Puto
+        </label>
+
+        <label>
+          <input type="checkbox" value="Suman sa Lihiya">
+          Suman sa Lihiya
+        </label>
+
       </div>
-      <div class="about-quote"><span>“</span><p>Mas masarap kapag gawa nang may pagmamahal.</p><small>It tastes better when it’s made with love.</small></div>
-    </section>
-  </main>
 
-  <footer>
-    <div>
-      <a class="brand footer-brand" href="#home"><span class="brand-mark">♥</span><span><strong>Made With Love</strong><small>Filipino Kitchen</small></span></a>
-      <p>Made-to-order Filipino sweets and kakanin.</p>
+    </label>
+
+
+    <div class="form-row">
+
+      <label>
+        Amount / tray size
+
+        <select id="orderSize">
+          <option>Not sure — please help me choose</option>
+          <option>Small order</option>
+          <option>Medium tray</option>
+          <option>Large tray</option>
+          <option>Party / catering size</option>
+        </select>
+      </label>
+
+      <label>
+        Preferred pickup date
+        <input type="date" id="pickupDate">
+      </label>
+
     </div>
-    <div class="footer-links"><a href="#menu">Menu</a><a href="#order">Order</a><a href="tel:+18888888888">Call</a><a href="CREDITS.md">Photo Credits</a></div>
-    <p class="copyright">© <span id="year"></span> Made With Love Filipino Kitchen.</p>
-  </footer>
 
-  <script src="script.js"></script>
+
+    <label>
+      Special requests
+
+      <textarea
+        id="orderNotes"
+        rows="4"
+        placeholder="Quantity, allergies, event details, etc.">
+      </textarea>
+
+    </label>
+
+
+    <button class="btn btn-primary form-submit" type="submit">
+      Text My Order →
+    </button>
+
+    <p class="form-footnote">
+      Submitting this form does not charge the customer.
+      You confirm availability, total price, and pickup details directly.
+    </p>
+
+  </form>
+
+</section>
+
+
+<!-- ABOUT SECTION -->
+
+<section class="about-section section" id="about">
+
+  <div class="about-card">
+
+    <p class="eyebrow">ABOUT OUR KITCHEN</p>
+
+    <h2>Home-cooked food with Filipino heart.</h2>
+
+    <p>
+      We make comforting Filipino favorites in small batches
+      and prepare each order with care. Whether it's a family
+      gathering, birthday, potluck, or “I miss Filipino food”
+      kind of day, we'd love to make something special for your table.
+    </p>
+
+    <a class="text-link" href="tel:+16309366837">
+      Call us to plan your order →
+    </a>
+
+  </div>
+
+
+  <div class="about-quote">
+
+    <span>“</span>
+
+    <p>Mas masarap kapag gawa nang may pagmamahal.</p>
+
+    <small>It tastes better when it's made with love.</small>
+
+  </div>
+
+</section>
+
+</main>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+  <div>
+
+    <a class="brand footer-brand" href="#home">
+
+      <span class="brand-mark">♥</span>
+
+      <span>
+        <strong>Dany's Lutong Bahay</strong>
+        <small>Filipino Kitchen</small>
+      </span>
+
+    </a>
+
+    <p>Made-to-order Filipino sweets and kakanin.</p>
+
+  </div>
+
+
+  <div class="footer-links">
+
+    <a href="#menu">Menu</a>
+    <a href="#order">Order</a>
+    <a href="tel:+16309366837">Call</a>
+    <a href="CREDITS.md">Photo Credits</a>
+
+  </div>
+
+
+  <p class="copyright">
+    © <span id="year"></span> Dany's Lutong Bahay. All rights reserved.
+  </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
 </body>
 </html>
